@@ -22,3 +22,4 @@ addons:
     working_dir: WORKING_DIR
     bucket: 
     s3_region: us-west-2
+script: ruby hello_world.rb
