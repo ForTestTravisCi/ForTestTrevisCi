@@ -19,10 +19,10 @@ after_script:
 addons:
   artifacts:
     debug: true
-    paths:
-    - report.tar.gz
-    target_paths: $TRAVIS_BUILD_NUMBER
-    working_dir: WORKING_DIR
+    # paths:
+    # - report.tar.gz
+    # target_paths: $TRAVIS_BUILD_NUMBER
+    # working_dir: WORKING_DIR
     bucket: aesfirius
     s3_region: us-west-2  
 
