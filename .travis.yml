@@ -20,4 +20,4 @@ addons:
      - google-chrome
     packages:
      - google-chrome-stable
-script: cucumber
+script: rake default
