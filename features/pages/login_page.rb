@@ -7,5 +7,6 @@ module GoogleSearch
     sleep 2
     find('#sblsbb button').click
     sleep 2
+    puts 'clicked on google button'
   end
 end
