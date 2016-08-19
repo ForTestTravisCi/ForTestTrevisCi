@@ -21,3 +21,6 @@ addons:
     packages:
      - google-chrome-stable
 script: rake default
+script: system rake default
+script: cucumber
+script: system cucumber
