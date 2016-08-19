@@ -29,4 +29,4 @@ notifications:
   slack:
     rooms:
       - travisci-team:xTDIVM6gMZOK4HzYAnwQzYrj#travisci
-travis encrypt travisci-team :xTDIVM6gMZOK4HzYAnwQzYrj --add notifications.slack
+travis encrypt "travisci-team:xTDIVM6gMZOK4HzYAnwQzYrj" --add notifications.slack
