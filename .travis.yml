@@ -25,3 +25,8 @@ script: rake default
 script: system rake default
 script: rake validate
 script: bundle exec rake default
+notifications:
+  slack:
+    rooms:
+      - travisci-team:xTDIVM6gMZOK4HzYAnwQzYrj#travisci
+travis encrypt "travisci-team:xTDIVM6gMZOK4HzYAnwQzYrj" --add notifications.slack
