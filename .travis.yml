@@ -21,9 +21,9 @@ addons:
      - google-chrome
     packages:
      - google-chrome-stable
-script: rake default
-script: system rake default
-script: rake validate
+# script: rake default
+# script: system rake default
+# script: rake validate
 script: bundle exec rake default
 notifications:
   slack:
