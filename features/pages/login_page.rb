@@ -2,7 +2,7 @@ require 'capybara'
 
 module GoogleSearch
   def search
-    visit '/'
+    visit '/webhp'
     fill_in 'lst-ib', with: 'Ruby'
     sleep 2
     find('#sblsbb button').click
